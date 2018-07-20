@@ -1,0 +1,11 @@
+#允许所有机器人爬取
+User-agent:*
+
+#禁止爬取admin文件夹内的文件
+Disallow:/admin/
+
+#禁止爬取image文件内的文件
+Disallow:/images/
+
+#只允许名为“slurp”机器人爬取
+User-agent:slurp
